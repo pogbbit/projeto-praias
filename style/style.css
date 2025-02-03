@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Abril Fatface');
+@import url();
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.textomain{
+    font-family: 'Abril Fatface';
+    font-size: 22px;
+    color: #041629;
+    writing-mode: vertical-rl;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f2e4;
+}
+
+section{
+    position: relative;
+    height: 850px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.swiper{
+    width: 1300px;
+}
+
+.card{
+    position: relative;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+section .card .image{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+}
+
+section .card .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    transition: all 0.8s;
+    opacity: 80%;
+    position: relative;
+}
+
+section .card .image img:hover{
+    transform: scale(1.04);
+    opacity: 100%;
+}
+
+.swiper-pagination{
+    position: absolute;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover{
+    opacity: 1;
+    color: #ffffff;
+}
+
+.flutuante {
+    display: flex;
+    position: absolute;
+    top: 280px;
+    left: 40px;
+    color: #041629;
+    font-size: 40px;
+    font-family: 'Abril Fatface';
+    z-index: 10;
+}
+
+.flutuante2 {
+    display: flex;
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    color: #041629;
+    font-size: 20px;
+    font-family: 'Abril Fatface';
+    z-index: 10;
+}
+
+.test {
+    display: flex;
+}
